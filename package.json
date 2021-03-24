@@ -1,6 +1,6 @@
 {
   "name": "@atlc/tbsp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tbsp, or 'tailwind-breakpoint-styled-properties', gives you the lazy way of importing Tailwind-sized breakpoints into a project /not/ utilizing Tailwind.",
   "main": "index.js",
   "typings": "typings.d.ts",
