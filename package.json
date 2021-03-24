@@ -1,0 +1,25 @@
+{
+  "name": "@atlc/tbsp",
+  "version": "1.0.0",
+  "description": "tbsp, or 'tailwind-breakpoint-styled-properties', gives you the lazy way of importing Tailwind-sized breakpoints into a project /not/ utilizing Tailwind.",
+  "main": "index.js",
+  "typings": "typings.d.ts",
+  "keywords": [
+    "tailwind",
+    "tailwind-css",
+    "styled-components"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atlc/tbsp.git"
+  },
+  "author": "https://github.com/atlc/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atlc/tbsp/issues"
+  },
+  "homepage": "https://github.com/atlc/tbsp#readme"
+}
