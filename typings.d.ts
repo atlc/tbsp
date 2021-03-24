@@ -2,6 +2,21 @@ export = Sizing;
 
 
 declare namespace Sizing {
+    export type sizes = {
+        sm: string;
+        md: string;
+        lg: string;
+        xl: string;
+        xxl: string;
+    }
+
+    export type screens = {
+        sm: string;
+        md: string;
+        lg: string;
+        xl: string;
+        xxl: string;
+    }
 
     /**
      * Returns an object of strings of Tailwind's breakpoint sizes.
@@ -16,13 +31,7 @@ declare namespace Sizing {
      * }
      * ```
      */
-    export type size = {
-        sm: string;
-        md: string;
-        lg: string;
-        xl: string;
-        xxl: string;
-    }
+    export function size(): sizes;
 
     /**
      * Returns an object of strings of the minimum width css property according to Tailwind's breakpoint sizes.
@@ -37,11 +46,6 @@ declare namespace Sizing {
      * }
      * ```
      */
-    export type screen = {
-        sm: string;
-        md: string;
-        lg: string;
-        xl: string;
-        xxl: string;
-    }
+     export function screen(): screens;
+    
 }
